@@ -3,11 +3,6 @@
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-export const metadata = {
-  title: 'Home - My E-commerce Site',
-  description: 'Welcome to our online store where you can find the best products.',
-};
-
 export default function HomePage() {
   const [products, setProducts] = useState([]);
 
